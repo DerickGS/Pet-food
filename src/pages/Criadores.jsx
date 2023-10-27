@@ -5,7 +5,7 @@ import { InstagramLogo } from "@phosphor-icons/react"
 import Header from "../components/Header"
 import Bruno from "../img/bruno.png"
 import Derick from "../img/Derick.png"
-import Francisco from "../img/Francisco.png"
+import Francisco from "../img/francisco.png"
 
 
 /*import { useState } from "react"*/
