@@ -34,7 +34,7 @@ return (
                         )
                     }
                 </button>
-                <h1 className={styles.sla}>Pet-food</h1>
+                <h1 className={styles.sla} id="not_translate_element">Pet-food</h1>
                 <img className= {styles.logo} src={Logo} alt="Logo" />
             </div>
             <div className={`${styles.options} ${abrirMenu === true && styles.open}`}>
