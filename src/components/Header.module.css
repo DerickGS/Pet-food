@@ -110,7 +110,6 @@ a {
 .desktop .button_options {
     padding:  12px 22px 12px 22px;
     border-radius: 20px;
-
 }
 
 @media (min-width: 800px) {
@@ -121,6 +120,8 @@ a {
     .desktop {
         display: flex;
     }
+
+
 }
 
 @media (max-width: 375px) {
@@ -172,5 +173,33 @@ a {
     }
     header{
         height: 6rem;
+    }
+}
+@media (max-width: 860px){
+    
+    /* .logo{
+        width: 48px;
+        height: 48px;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: 20px;
+    } */
+    .desktop_options{
+        gap: 1rem;
+    }
+    .desktop .button_options {
+        padding:  12px 22px 12px 22px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    /* header{
+        height: 4rem;
+    } */
+
+    .desktop button{
+        width: 48px;
+        height: 48px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 }

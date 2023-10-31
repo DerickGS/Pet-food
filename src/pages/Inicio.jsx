@@ -57,7 +57,7 @@ return (
             <section className={styles.conteudo}>
                 <div className={styles.box_1}>
                 <div className={styles.card_titulo_1}>
-                <h1 className={styles.titulo}>Pet-food</h1>
+                <h1 className={styles.titulo} translate="no">Pet-food</h1>
                 </div>
                 <div  className={styles.card_conteudo_1}>
                     <h2 className={styles.conteudo_principal_escrito_subtitulo}>O que o PetFood faz por você?</h2>
