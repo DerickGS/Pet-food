@@ -22,7 +22,7 @@ return (
     <main className= {styles.conteudo_pagina}>
         <section className={styles.mobile}>
         <div className={styles.card_titulo_1}>
-                <h1 className={styles.titulo}>Pet-food</h1>
+                <h1 className={styles.titulo} translate="no">Pet-food</h1>
             </div>
             <div className={styles.box_img}>
                 <img className={styles.conteudo_principal_imagem} src={progeto_1} alt="Imagem do projeto" />  
