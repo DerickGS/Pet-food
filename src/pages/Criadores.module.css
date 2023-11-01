@@ -89,7 +89,7 @@ h4 {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 920px) {
   .card_criadores{
     flex-direction: column;   
     /* margin-top: 12rem;    */
