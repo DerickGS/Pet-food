@@ -110,7 +110,7 @@
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 
   .desktop{
     .card_titulo{
@@ -125,8 +125,8 @@
   
     .card_conteudo{
     grid-area: leftSide; 
-  width: 754px;
-  height: 595px;
+    width: 754px;
+    height: 595px;
     width: 688px;
     height: 585px;
     flex-shrink: 0;
@@ -208,7 +208,7 @@
 
 
 /*..............................*/
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .card_conteudo   {   
     display: flex;
     flex-direction: column;   
@@ -247,9 +247,9 @@
 
 
 
-@media (min-width: 800px) {
+@media (min-width: 769px) {
 
-
+  
   .mobile{
     display: none;
   }
@@ -389,3 +389,93 @@
     margin-inline: 20px;
 }
   }
+
+  @media (max-width: 1350px) {
+    .desktop .img_1{
+    width: 293px;
+    height: auto;
+    }
+    .desktop .img_2{
+      width: 154px;
+      height: auto;
+    }
+    .desktop .img_3{
+      width: 228px;
+      height: auto;
+    }
+    .desktop .card_titulo{
+      width: 300px;
+    height: auto;
+    }
+    .desktop .titulo{
+      font-size: 48px;
+    }
+  }
+
+    @media (max-width: 1110px) {
+      .desktop .img_1{
+        width: 243px;
+        height: auto;
+        }
+        .desktop .img_2{
+          width: 154px;
+          height: auto;
+        }
+        .desktop .img_3{
+          width: 228px;
+          height: auto;
+        }
+      }
+
+
+      @media (max-width: 1155px) {
+        .desktop .img_1{
+          width: 203px;
+          height: auto;
+          }
+          .desktop .img_2{
+            width: 134px;
+            height: auto;
+          }
+          .desktop .img_3{
+            width: 208px;
+            height: auto;
+          }
+          .desktop .box_img{
+            margin: 8px 6px 8px 6px;
+          }
+
+        }
+
+        @media (max-width: 915px) {
+          /* .desktop .img_1{
+            width: 203px;
+            height: auto;
+            }
+            .desktop .img_2{
+              width: 114px;
+              height: auto;
+            }
+            .desktop .img_3{
+              width: 188px;
+              height: auto;
+            }
+            .desktop .box_img{
+              margin: 8px 6px 8px 6px;
+            } */
+
+            .conteudo .card_conteudo{
+              margin-inline: 10px;
+              width: 450px;
+              height: auto;
+            }
+
+            .desktop .card_conteudo a{
+              margin-left: 50px;
+              margin-right: 120px;
+            }
+
+            .card_titulo{
+              margin: 5px 32px 4px 0px
+            }
+          }

@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
+
+  
+.card_conteudo a {
+  color: rgb(76, 35, 143);
+
+}
+
+.card_conteudo a:hover{
+  color: rgb(5, 41, 244); 
+}
+
 @media (min-width: 660PX) {
   .conteudo_pagina {
     display: flex;  
@@ -446,14 +457,17 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
   }
   
   .gallery_wrapper::-webkit-scrollbar-track {
-    background: orange  ;     
+    /* background: orange  ;      */
+    background: #F4D9B2;   
     border-radius: 10px; 
   }
   
   .gallery_wrapper::-webkit-scrollbar-thumb {
-    background-color: #F4D9B2;   
+    /* background-color: #F4D9B2;    */
+    background-color: #D39844;   
     border-radius: 20px;    
-    border: 3px solid orange; 
+    /* border: 3px solid orange;  */
+    border: 3px solid #F4D9B2; 
   }
 }
 
