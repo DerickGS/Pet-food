@@ -125,7 +125,8 @@
     margin-right: 104px;
     /* width: 788px; */
     /* width: 1297px; */
-    min-height: 158px;
+    min-height: auto;
+    padding: 19px;
     }
   
     /* .box_img{
