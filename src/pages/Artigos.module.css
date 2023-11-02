@@ -440,6 +440,24 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
   scrollbar-width: none; /* Firefox */
 }
 
+@media (min-width: 425px) {
+  .gallery_wrapper::-webkit-scrollbar {
+    width: 12px;             
+  }
+  
+  .gallery_wrapper::-webkit-scrollbar-track {
+    background: orange  ;     
+    border-radius: 10px; 
+  }
+  
+  .gallery_wrapper::-webkit-scrollbar-thumb {
+    background-color: #F4D9B2;   
+    border-radius: 20px;    
+    border: 3px solid orange; 
+  }
+}
+
+
 .cyan {
   background: cyan;
 }
@@ -459,3 +477,5 @@ https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
 .purple {
   background: purple;
 }
+
+
