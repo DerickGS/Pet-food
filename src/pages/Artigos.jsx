@@ -22,7 +22,7 @@ return (
                     <h1 className={styles.titulo}>Artigos</h1>
                 </div>
                 <section className={styles.card_conteudo}>
-                    <p>O comedouro automático tradicional funciona pela ação da gravidade. O tutor coloca a ração no reservatório e, conforme o pet se alimenta, uma nova ração é liberada. O único problema desses objetos é que, como a ração está sempre disponível, se não cuidar, o cachorro ou gato pode acabar engordando. <a href="https://blog.cobasi.com.br/comedouro-automatico/">https://blog.cobasi.com.br/comedouro-automatico/</a></p>
+                    <p>O comedouro automático tradicional funciona pela ação da gravidade. O tutor coloca a ração no reservatório e, conforme o pet se alimenta, uma nova ração é liberada. O único problema desses objetos é que, como a ração está sempre disponível, se não cuidar, o cachorro ou gato pode acabar engordando. <a href="https://blog.cobasi.com.br/comedouro-automatico/" className={styles.data_descr}>https://blog.cobasi.com.br/comedouro-automatico/</a></p>
                     {/* <div className={styles.vidio}>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/TdMz7EMKBdY?si=BSo_eiKQ7nBbPHlH" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>       */}
