@@ -87,7 +87,7 @@ return (
 
             <div className={styles.card_componente}>
             <Link className={styles.button_options} to={"/ModuloRele"}>
-                <img src={Módulo_relé} alt="Módulo relé" className={styles.img_componente}/>s
+                <img src={Módulo_relé} alt="Módulo relé" className={styles.img_componente}/>
                 <p>Módulo relé</p>
             </Link>
             </div>

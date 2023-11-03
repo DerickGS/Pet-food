@@ -30,7 +30,7 @@ Noprojeto utilizamos do arduino para controlar os sensores e módulos a fim de a
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_arduino}>
                     <h1 className={styles.titulo}>Arduino</h1>
                 </div>
                 <section className={styles.conteudo}>

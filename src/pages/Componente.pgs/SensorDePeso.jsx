@@ -28,7 +28,7 @@ No projeto utilizamos de sensores de peso nas tijélas de comida e água, bem co
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_sensor_de_peso}>
                     <h1 className={styles.titulo}>Sensor de peso</h1>
                 </div>
                 <section className={styles.conteudo}>

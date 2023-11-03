@@ -28,7 +28,7 @@ return (
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_leds}>
                     <h1 className={styles.titulo}>Leds</h1>
                 </div>
                 <section className={styles.conteudo}>

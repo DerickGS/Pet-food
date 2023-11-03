@@ -34,7 +34,7 @@ funcionamento do aparelho, que geralmente é 12V.
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_fonte12v}>
                     <h1 className={styles.titulo}>Fonte 12v</h1>
                 </div>
                 <section className={styles.conteudo}>

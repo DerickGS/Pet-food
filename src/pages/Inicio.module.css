@@ -258,7 +258,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .mobile{
     .conteudo_pagina{
       margin-top: 6px;
@@ -304,7 +304,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 370px) {
   .mobile{
     .conteudo_pagina{
       margin-top: 4px;
@@ -421,6 +421,7 @@
     }
   }
 }
+
 @media (min-width: 1440px) {
   .desktop{
     .card_titulo_1 .titulo{
@@ -488,6 +489,7 @@
     }
   }
 }
+
 @media (min-width: 2560px) {
   .desktop{
     .card_titulo_1 .titulo{

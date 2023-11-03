@@ -30,7 +30,7 @@ Os servos CC (corrente contínua) são formados basicamente por um pequeno motor
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_motor_servo}>
                     <h1 className={styles.titulo}>Motor servo</h1>
                 </div>
                 <section className={styles.conteudo}>

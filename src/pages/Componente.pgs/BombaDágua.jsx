@@ -31,7 +31,7 @@ Quando acionada, a Mini Bomba de Água é a responsável pela impulsão da água
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_bomba}>
                     <h1 className={styles.titulo}>Bomba d’água</h1>
                 </div>
                 <section className={styles.conteudo}>

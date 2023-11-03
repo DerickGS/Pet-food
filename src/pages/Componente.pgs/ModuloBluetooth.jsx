@@ -30,7 +30,7 @@ No projeto utilizamos do módulo bluettoth para fazer conexão direta do arduino
             </section>
 
             <section className={styles.desktop}>
-                <div className={styles.card_titulo}>
+                <div className={styles.card_titulo_bluetooth}>
                     <h1 className={styles.titulo}>Modulo Bluetooth</h1>
                 </div>
                 <section className={styles.conteudo}>
